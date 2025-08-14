@@ -94,6 +94,7 @@ nubian,e_abyssinia,k_nubia
 zhangzhung,e_tibet,k_guge
 bodpa,e_tibet,k_yarlung
 sumpa,e_tibet,k_yarlung
+han,e_tibet,k_xixia
 afghan,e_persia,k_afghanistan
 baloch,e_persia,k_baluchistan
 sogdian,e_turkestan,k_khiva

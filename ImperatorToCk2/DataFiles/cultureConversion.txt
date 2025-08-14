@@ -37,6 +37,7 @@ thessalian,greek
 greco_indian,indogreek
 hellenistic,hellenistic
 greek,greek
+syriote,greek
 
 #Latin
 
@@ -55,6 +56,7 @@ osco_umbrian,sabellian
 umbrian,sabellian
 siculian,siculian
 ligurian,old_ligurian
+elesycian,old_ligurian
 venetic,venetic
 
 #PreIndoEuropean
@@ -315,6 +317,7 @@ sasperian,georgian
 
 albanian,caucasian_albanian
 legian,caucasian_albanian
+gelaean,caucasian_albanian
 caspian,caspian
 
 #Iberic
@@ -390,6 +393,7 @@ eblaite,eblaite
 puntic,somali
 berberian,somali
 avalitian,somali
+erythraean,somali
 aksumite,ethiopian
 athagaun,ethiopian
 ona,ethiopian
@@ -538,6 +542,9 @@ pyu,pyu
 rhakine,mon
 mon,mon
 pubu,wa
+
+#Chinese
+qin,han
 
 #Hurrian
 hurrian,hurrian_culture
