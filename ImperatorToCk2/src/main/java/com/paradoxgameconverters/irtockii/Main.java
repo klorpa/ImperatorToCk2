@@ -1,5 +1,5 @@
 package com.paradoxgameconverters.irtockii;   
-
+   
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.io.File;
@@ -278,6 +278,11 @@ public class Main
             LOGGER.info("Importing mod directories...");
   
             ArrayList<String> modDirs = Importer.importModDirs(impDirSave,irModDir);
+            try {
+                modDirs = Processing.correctModDirs(modDirs,irModDir);
+            } catch (Exception e) {
+                LOGGER.warning("Error with mod directory correction! This may result in missing flags and localization");
+            }
             ArrayList<String> modFlagGFX = Importer.importModFlagDirs(modDirs); //flag gfx files
             ArrayList<String> modRegion = Importer.importModRegionDirs(modDirs); //flag gfx files
             ArrayList<String> modIDMappings = Importer.importBasicFile("modMappings.txt"); //list of supported major map overhaul mods

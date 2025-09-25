@@ -2287,5 +2287,35 @@ public class Processing
 
         return governorships;
     }
+    
+    public static ArrayList<String> correctModDirs(ArrayList<String> modDirs, String fullModFolderDir) throws IOException
+    //Some I:R mod dirs aren't literal, therefore need the folder dir added onto the front
+    {
+        int count = 0;
+        String modFolderDir = fullModFolderDir.substring(0,fullModFolderDir.length()-4);
+        while (count < modDirs.size()) {
+            String selectedDir = modDirs.get(count);
+            File folderTest = new File (selectedDir);
+            String[] folderTestContents = folderTest.list();
+            if (folderTestContents == null && !selectedDir.equals("none")) {
+                System.out.println("Warning! "+selectedDir+" doesn't exist, attempting to correct");
+                String newDir = modFolderDir + "\\" + selectedDir;
+                folderTest = new File (newDir);
+                folderTestContents = folderTest.list();
+                if (folderTestContents == null) {
+                    System.out.println("Warning! "+newDir+" doesn't exist either, skipping");
+                } else {
+                    modDirs.set(count,newDir);
+                    System.out.println("Successfully corrected to "+newDir);
+                }
+            }
+            
+            count = count + 1;
+            
+        }
+
+        return modDirs;
+    }
+    
 
 }
