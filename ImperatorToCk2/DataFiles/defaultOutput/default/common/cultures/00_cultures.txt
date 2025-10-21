@@ -1135,6 +1135,10 @@ latin = {
 		}
 		from_dynasty_prefix = "of "
 
+		male_patronym = "is"
+		female_patronym = "ia"
+		prefix = no # The patronym is added as a suffix
+
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
 		pat_grf_name_chance = 50
 		mat_grf_name_chance = 0
@@ -1150,7 +1154,7 @@ latin = {
 		modifier = default_culture_modifier
 	}
 
-	liburnian = {
+	liburnian = { #Depreciated
 		graphical_cultures = { romangfx southerngfx trueoccitangfx occitangfx }
 
 		color = { 6 0.8 0.73 }
@@ -1370,34 +1374,21 @@ latin = {
 	}
 
 	venetic = {
-		graphical_cultures = { romangfx southerngfx trueoccitangfx occitangfx }
+		graphical_cultures = { romangfx trueoccitangfx occitangfx }
 
 		color = { 0.93 0.0 0.39 }
 
 		alternate_start = { has_alternate_start_parameter = { key = culture value = full_random } }
 
 		male_names = {
-			Aimos Afros Aplisikos Arsoetigo Bagsono Egotore Egests Ersinos Egotor Egetor Enogenes
-		    Enokleves Fonts Fougonts Fugios Fremaistos Hostihevos Iante Iuvants Kantes Karamnos Lamusos Muskials
-		    Naisons Osts Oppos Pilpots Pledes Verkano Voltiomnos Veignos Vante Vants Votos Voltigene Voltigenes 
-		    Akuts Fremo Fremaistos Keutinos Ktulistos Moldo Resunkos Suros Tomatorios Vantkenio 		
-		    Albarenos Alero Anteto Andetico Aplisikos Arbos Ariuns Askolo Afros Atto Baito Bellenes Boiialns
-		    Boiio Boios Broicoko Broico Budicako Buticakos Deipiiariko Deipiiaris Dilliko Dillis Ebos Einaios Einao Eneicos
-		    Eneis Eneto Enetios Ennons Feugo Fonto Fremaistios Gaio Gaiios Graiko Henotos Houvos Hovos Hutto Huttos Kastiko
-		    Kastis Kataks Kello Kellos Kolo Klutavis Ametiko Ametis Kvito Lants Lante Lavsko Lemetor Luks Metso 
-		    Moldono Muskials Muskialo Nagalkno Nagalo Naisonko Naisons Naisos Okicaiko Okicais Ossoko 
-		    Ossos Panarios Panaros Pelonikos Pelonis Pletes Raitevios Raitevos Reitos Resunkos Resuns Rebetono
-		    Sikos Siaks Segtios Taino Tekios Turico Trosto Trisikos Uko Urkleios Urkles Usedis Uposetios Vantkes Vasseno Veignos Veimes Vennonis
-		    Vennon Verkondar Verkvalos
+		    Alero_Alero Arbos_Arbos Atto_Atto Aviro Butijakos_Butijakos Deivolaijos Ebos_Ebos Enno_Enno Eskaiva Gaijos_Gaius Goltanos Fouvos_Houvos Fovos_Houvos Fugenes Futtos_Huttos Kastikos_Kastikos Kellos_Kellos Kuges Kuijuta_Kuikuta Luks_Luks Melinks Metso_Metso Oppos_Oppos Ostiankos Ostis_Osts Ostiaris Kvartio Suros Tideimes Turijo_Turijo Turijones Veimes_Veimes Votos_Voto
+		    Kadriakos Kuges Lavskos_Lavskos Padros Pletuves Vants_Vants Verkvalos_Verkvalos 
+		    Afros_Afros Aimos_Aimos Akuts_Akuts Ariuns_Ariuns Bellenes_Bellenes Egests_Egests Ennons Enogenes_Enogenes Enokleves Fonts_Fontes Fougons_Fougontes Fremaistos_Fremaistos Fugios_Fugios Graikos_Graikos Hostihavos_Hostihavos Iuvants_Iuvants Kantes_Kantes Karanmns_Karanmns Katulstos_Katulstos Keutinos_Keutinos Krumelons Kvito_Kvito Lants_Lants Lemetor_Lemetor Lemetos_Lemetor Leso Moldo_Moldo Moldonkeo Molon Moloto Moltons Nagalknos_Nagalknos Naisos_Naisos Ostios Osts_Osts Pilpots_Pilpots Pledes_Pledes Pupons Raitevios_Raitevios Sikos_Sikos Tivales Uko_Uko Vants_Vants Vasseno_Vasseno Veignos_Veignos Vilkenis Viseiio Voltigens_Voltigens Voltignos_Voltignos Voltiomnos_Voltiomnos Voto_Voto
 		}
 		female_names = {
-			Aima Aklona Andeta Afra Aplisia Arsoetiga Bagsonia Egotora Egesta Ersina Egotora Egetora 
-			Enokleva Fetiana Fonta Fougonta Fugia Fukssia Fremaista Frutana Hostiheva Ianta Iuvanta Kanta Lamusa Muskiala
-			Naisona Neirka Nerka Osta Ostia Oppa Pilpota Pleda Verkana Veigna Vanta Vota
-			Akuta Frema Fremaistina Keutina Ktulista Molda Resunkia Suria Tomatoria Vantkenia		
-			Apia Askolia Ataina Atta Baitonia Brigdina Bukka Ebua Efa Iuanta Ituria Ikeveioneia Kolia
-			Kuikuta Makna Moldona Musta Ostina Otnia Reitia Rebetona Taina Trostia Urkleia Urkleina
-			Usedica Vantkenia Venna Verkondarna
+		    Fouva Vrota Ikeveioneia_Ikeveioneia Laivna Lessa Usedika_Usedika Venna_Venna
+		    Iuvanta Ostiala
+		    Akutna_Akutna Andetina_Andetina Apaia_Apaia Atta_Atta Boiialna Bukka_Bukka Ebfa_Efa Efa_Efa Egestna_Egestna Egetora_Egetora Fougonta_Fougonta Frema_Frema Fremaistna_Fremaistna Fremenodu Frutana Fugia_Fugia Fuginia Fugsia_Fugsia Iuvanta_Iuvanta Iuvantna Ituria_Ituria Kanta_Kanta Lemetorna Logsia Makna_Makna Moldna_Moldna Muskialna_Muskialna Musta_Musta Nerka_Nerka Ostiala Rumana Siakna Souvna Turkna Urkleina_Urkleina Verkondarna_Verkondarna Voltiomnina Votina Fougontna Katakna
 		}
 		from_dynasty_prefix = "of "
 
@@ -1411,7 +1402,11 @@ latin = {
 		mat_grm_name_chance = 50
 		mother_name_chance = 0
 
-		disinherit_from_blinding = yes
+		male_patronym = "ios"
+		female_patronym = "ia"
+		prefix = no # The patronym is added as a suffix
+
+		seafarer = yes
 
 		modifier = default_culture_modifier
 	}
