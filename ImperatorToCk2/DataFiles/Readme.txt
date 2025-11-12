@@ -59,6 +59,7 @@ Siawosh - Testing
 Diskianterezh - Noric Divergence cultures
 Yuiiut - data files (Scythian Rework, Parthian Cultures, Buildings, Retinues, and 150BC mappings)
 Goji - Testing
+derekmark - Venetic, Sabellian, and Rhaetian cultural names and dynasties
 
 The When The World Stopped Making Sense (WtWSMS) mod team for allowing the converter to use their content, their mod can be found either on Steam or their forum thread.
 WtWSMS mod Steam link: https://steamcommunity.com/sharedfiles/filedetails/?id=1247380029

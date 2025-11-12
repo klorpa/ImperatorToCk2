@@ -918,23 +918,21 @@ pre_indo_european = {
 	}
 
 	rhaetian = {
-		graphical_cultures = { romangfx southerngfx trueoccitangfx occitangfx }
+		graphical_cultures = { romangfx trueoccitangfx occitangfx }
 		alternate_start = {
 			OR = {
 				year < 1000
 				has_alternate_start_parameter = { key = culture value = full_random }
 			}
 		}
-		#265.6 0.8971 0.8
 		color = { 0.73  0.37  0.38 }
 
-		# Þ 222 þ 254 Ð 208 ð 240 æ
 
 		male_names = {
-			Azi Elkganu Enike Esimne "Esst'u" Estanu Esumne Kanise "Kat'iave" Ketanu Kgaisuru Kgika Klevie Knuse
-			Laseke Lassanu Lasta "Last'e" "Lat'ur" Lavise Lavisie Lumene Munie Phausu Phelturie Phelzurie Phrima Phutikgi
-			Pitale "Pit'amne" "Pit'iave" "Pit'ie" Piti Pitie Piri "Reit'e" Reituse Remie Tarie Tenakgi Terunie Tnake "T'arie" Tula 
-			Tulanu Ustitsu "Valt'ikie" Vassa Vatsanu "Velt'ie" 
+			Azi Elkganu Enike Esimne Essthu Estanu Esumne Kanise Kathiave Ketanu Kgaisuru Kgika Klevie Knuse
+			Laseke Lassanu Lasta Lasthe Lathur Lavise Lavisie Lumene Munie Phausu Phelturie Phelzurie Phrima Phutikgi
+			Pitale Pithamne Pithiave Pithie Piti Pitie Piri Reithe Reituse Remie Tarie Tenakgi Terunie Tnake Tharie Tula 
+			Tulanu Ustitsu Valthikie_Voltignos Vassa Vatsanu_Vasseno Velthie 
 		}
 		female_names = {
 			Aruse Arusna Kara Kari Kgari Kgeli Kgevisiana Lavise Lavissa Perkusi Phelna Piri Remi Siara
@@ -942,6 +940,8 @@ pre_indo_european = {
 
 		from_dynasty_prefix = "of "
 
+		male_patronym = "nu"
+		female_patronym = "na"
 		prefix = no # The patronym is added as a suffix
 
 		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.

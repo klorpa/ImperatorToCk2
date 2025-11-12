@@ -1,800 +1,330 @@
 5190000=
 {
-	name="Aburius"
+	name="Arkius"
 	culture="sabellian"
 }
 5190001=
 {
-	name="Aburia"
+	name="Aadiis"
 	culture="sabellian"
 }
 5190002=
 {
-	name="Aburii"
+	name="Adariis"
 	culture="sabellian"
 }
 5190003=
 {
-	name="Aburian"
+	name="Anniis"
 	culture="sabellian"
 }
 5190004=
 {
-	name="Accius"
+	name="Asinis"
 	culture="sabellian"
 }
 5190005=
 {
-	name="Accia"
+	name="Atriis"
 	culture="sabellian"
 }
 5190006=
 {
-	name="Accii"
+	name="Babbiis"
 	culture="sabellian"
 }
 5190007=
 {
-	name="Accian"
+	name="Basis"
 	culture="sabellian"
 }
 5190008=
 {
-	name="Acilius"
+	name="Beniis"
 	culture="sabellian"
 }
 5190009=
 {
-	name="Acilia"
+	name="Beitiis"
 	culture="sabellian"
 }
 51900010=
 {
-	name="Acilii"
+	name="Brutiis"
 	culture="sabellian"
 }
 51900011=
 {
-	name="Acilian"
+	name="Cusies"
 	culture="sabellian"
 }
 51900012=
 {
-	name="Acutius"
+	name="Dekiis"
 	culture="sabellian"
 }
 51900013=
 {
-	name="Acutia"
+	name="Dekitiis"
 	culture="sabellian"
 }
 51900014=
 {
-	name="Acutii"
+	name="Diriis"
 	culture="sabellian"
 }
 51900015=
 {
-	name="Acutian"
+	name="Duiis"
 	culture="sabellian"
 }
 51900016=
 {
-	name="Aebutius"
+	name="Enniis"
 	culture="sabellian"
 }
 51900017=
 {
-	name="Aebutia"
+	name="Fisanis"
 	culture="sabellian"
 }
 51900018=
 {
-	name="Aebutii"
+	name="Fuvfdis"
 	culture="sabellian"
 }
 51900019=
 {
-	name="Aebutian"
+	name="Flaviis"
 	culture="sabellian"
 }
 51900020=
 {
-	name="Aelius"
+	name="Galliis"
 	culture="sabellian"
 }
 51900021=
 {
-	name="Aelia"
+	name="Gaviis"
 	culture="sabellian"
 }
 51900022=
 {
-	name="Aelii"
+	name="Gnaiviis"
 	culture="sabellian"
 }
 51900023=
 {
-	name="Aelian"
+	name="Heiis"
 	culture="sabellian"
 }
 51900024=
 {
-	name="Aemilius"
+	name="Heleviis"
 	culture="sabellian"
 }
 51900025=
 {
-	name="Aemilia"
+	name="Hurtiis"
 	culture="sabellian"
 }
 51900026=
 {
-	name="Aemilii"
+	name="Husidiis"
 	culture="sabellian"
 }
 51900027=
 {
-	name="Aemilian"
+	name="Husiniis"
 	culture="sabellian"
 }
 51900028=
 {
-	name="Alienus"
+	name="Kalaviis"
 	culture="sabellian"
 }
 51900029=
 {
-	name="Aliena"
+	name="Kampaniis"
 	culture="sabellian"
 }
 51900030=
 {
-	name="Alienii"
+	name="Kattiis"
 	culture="sabellian"
 }
 51900031=
 {
-	name="Alien"
+	name="Kepiis"
 	culture="sabellian"
 }
 51900032=
 {
-	name="Anicius"
+	name="Kiipiis"
 	culture="sabellian"
 }
 51900033=
 {
-	name="Anicia"
+	name="Kluvatiis"
 	culture="sabellian"
 }
 51900034=
 {
-	name="Anicii"
+	name="Klippiis"
 	culture="sabellian"
 }
 51900035=
 {
-	name="Anician"
+	name="Kudiis"
 	culture="sabellian"
 }
 51900036=
 {
-	name="Annius"
+	name="Kureliis"
 	culture="sabellian"
 }
 51900037=
 {
-	name="Annia"
+	name="Luvkiis"
 	culture="sabellian"
 }
 51900038=
 {
-	name="Anni"
+	name="Magiis"
 	culture="sabellian"
 }
 51900039=
 {
-	name="Annian"
+	name="Mamios"
 	culture="sabellian"
 }
 51900040=
 {
-	name="Antius"
+	name="Mahiis"
 	culture="sabellian"
 }
 51900041=
 {
-	name="Antia"
+	name="Metiis"
 	culture="sabellian"
 }
 51900042=
 {
-	name="Antii"
+	name="Niumeriis"
 	culture="sabellian"
 }
 51900043=
 {
-	name="Antian"
+	name="Niumediis"
 	culture="sabellian"
 }
 51900044=
 {
-	name="Antistius"
+	name="Niumsdiis"
 	culture="sabellian"
 }
 51900045=
 {
-	name="Antistia"
+	name="Nuviis"
 	culture="sabellian"
 }
 51900046=
 {
-	name="Antistii"
+	name="Pupaiis"
 	culture="sabellian"
 }
 51900047=
 {
-	name="Antistian"
+	name="Paapaiis"
 	culture="sabellian"
 }
 51900048=
 {
-	name="Antonius"
+	name="Pakkuiis"
 	culture="sabellian"
 }
 51900049=
 {
-	name="Antonia"
+	name="Pumptiis"
 	culture="sabellian"
 }
 51900050=
 {
-	name="Antonii"
+	name="Pupeliis"
 	culture="sabellian"
 }
 51900051=
 {
-	name="Antonian"
+	name="Pafiis"
 	culture="sabellian"
 }
 51900052=
 {
-	name="Claudius"
+	name="Peracis"
 	culture="sabellian"
 }
 51900053=
 {
-	name="Claudia"
+	name="Rufriis"
 	culture="sabellian"
 }
 51900054=
 {
-	name="Claudii"
+	name="Sattiis"
 	culture="sabellian"
 }
 51900055=
 {
-	name="Claudian"
+	name="Statiis"
 	culture="sabellian"
 }
 51900056=
 {
-	name="Cloelius"
+	name="Staiis"
 	culture="sabellian"
 }
 51900057=
 {
-	name="Cloelia"
+	name="Tanunis"
 	culture="sabellian"
 }
 51900058=
 {
-	name="Cloelii"
+	name="Tintiriis"
 	culture="sabellian"
 }
 51900059=
 {
-	name="Cloelian"
+	name="Variis"
 	culture="sabellian"
 }
 51900060=
 {
-	name="Cominius"
+	name="Valavennis"
 	culture="sabellian"
 }
 51900061=
 {
-	name="Cominia"
+	name="Veleiis"
 	culture="sabellian"
 }
 51900062=
 {
-	name="Cominii"
+	name="Vesulliais"
 	culture="sabellian"
 }
 51900063=
 {
-	name="Cominian"
+	name="Urufiis"
 	culture="sabellian"
 }
 51900064=
 {
-	name="Cornelius"
+	name="Uviis"
 	culture="sabellian"
 }
 51900065=
 {
-	name="Cornelia"
-	culture="sabellian"
-}
-51900066=
-{
-	name="Cornelii"
-	culture="sabellian"
-}
-51900067=
-{
-	name="Cornelian"
-	culture="sabellian"
-}
-51900068=
-{
-	name="Coruncanius"
-	culture="sabellian"
-}
-51900069=
-{
-	name="Coruncania"
-	culture="sabellian"
-}
-51900070=
-{
-	name="Coruncanii"
-	culture="sabellian"
-}
-51900071=
-{
-	name="Coruncanian"
-	culture="sabellian"
-}
-51900072=
-{
-	name="Curiatius"
-	culture="sabellian"
-}
-51900073=
-{
-	name="Curiatia"
-	culture="sabellian"
-}
-51900074=
-{
-	name="Curiatii"
-	culture="sabellian"
-}
-51900075=
-{
-	name="Curiatian"
-	culture="sabellian"
-}
-51900076=
-{
-	name="Curtius"
-	culture="sabellian"
-}
-51900077=
-{
-	name="Curtia"
-	culture="sabellian"
-}
-51900078=
-{
-	name="Curtii"
-	culture="sabellian"
-}
-51900079=
-{
-	name="Curtian"
-	culture="sabellian"
-}
-51900080=
-{
-	name="Curius"
-	culture="sabellian"
-}
-51900081=
-{
-	name="Curia"
-	culture="sabellian"
-}
-51900082=
-{
-	name="Curii"
-	culture="sabellian"
-}
-51900083=
-{
-	name="Curian"
-	culture="sabellian"
-}
-51900084=
-{
-	name="Decius"
-	culture="sabellian"
-}
-51900085=
-{
-	name="Decia"
-	culture="sabellian"
-}
-51900086=
-{
-	name="Decii"
-	culture="sabellian"
-}
-51900087=
-{
-	name="Decian"
-	culture="sabellian"
-}
-51900088=
-{
-	name="Domitius"
-	culture="sabellian"
-}
-51900089=
-{
-	name="Domitia"
-	culture="sabellian"
-}
-51900090=
-{
-	name="Domitii"
-	culture="sabellian"
-}
-51900091=
-{
-	name="Domitian"
-	culture="sabellian"
-}
-51900092=
-{
-	name="Sestius"
-	culture="sabellian"
-}
-51900093=
-{
-	name="Sestia"
-	culture="sabellian"
-}
-51900094=
-{
-	name="Sestii"
-	culture="sabellian"
-}
-51900095=
-{
-	name="Sestian"
-	culture="sabellian"
-}
-51900096=
-{
-	name="Sextius"
-	culture="sabellian"
-}
-51900097=
-{
-	name="Sextia"
-	culture="sabellian"
-}
-51900098=
-{
-	name="Sextii"
-	culture="sabellian"
-}
-51900099=
-{
-	name="Sextian"
-	culture="sabellian"
-}
-519000100=
-{
-	name="Sextilius"
-	culture="sabellian"
-}
-519000101=
-{
-	name="Sextilia"
-	culture="sabellian"
-}
-519000102=
-{
-	name="Sextilii"
-	culture="sabellian"
-}
-519000103=
-{
-	name="Sextilian"
-	culture="sabellian"
-}
-519000104=
-{
-	name="Sicinius"
-	culture="sabellian"
-}
-519000105=
-{
-	name="Sicinia"
-	culture="sabellian"
-}
-519000106=
-{
-	name="Sicinii"
-	culture="sabellian"
-}
-519000107=
-{
-	name="Sicinian"
-	culture="sabellian"
-}
-519000108=
-{
-	name="Silius"
-	culture="sabellian"
-}
-519000109=
-{
-	name="Silia"
-	culture="sabellian"
-}
-519000110=
-{
-	name="Silii"
-	culture="sabellian"
-}
-519000111=
-{
-	name="Silian"
-	culture="sabellian"
-}
-519000112=
-{
-	name="Sulpicius"
-	culture="sabellian"
-}
-519000113=
-{
-	name="Sulpicia"
-	culture="sabellian"
-}
-519000114=
-{
-	name="Sulpicii"
-	culture="sabellian"
-}
-519000115=
-{
-	name="Sulpician"
-	culture="sabellian"
-}
-519000116=
-{
-	name="Titius"
-	culture="sabellian"
-}
-519000117=
-{
-	name="Titia"
-	culture="sabellian"
-}
-519000118=
-{
-	name="Titii"
-	culture="sabellian"
-}
-519000119=
-{
-	name="Titian"
-	culture="sabellian"
-}
-519000120=
-{
-	name="Tremulus"
-	culture="sabellian"
-}
-519000121=
-{
-	name="Tremulia"
-	culture="sabellian"
-}
-519000122=
-{
-	name="Tremulii"
-	culture="sabellian"
-}
-519000123=
-{
-	name="Tremulan"
-	culture="sabellian"
-}
-519000124=
-{
-	name="Tullius"
-	culture="sabellian"
-}
-519000125=
-{
-	name="Tullia"
-	culture="sabellian"
-}
-519000126=
-{
-	name="Tullii"
-	culture="sabellian"
-}
-519000127=
-{
-	name="Tullian"
-	culture="sabellian"
-}
-519000128=
-{
-	name="Ulpius"
-	culture="sabellian"
-}
-519000129=
-{
-	name="Ulpia"
-	culture="sabellian"
-}
-519000130=
-{
-	name="Ulpii"
-	culture="sabellian"
-}
-519000131=
-{
-	name="Ulpian"
-	culture="sabellian"
-}
-519000132=
-{
-	name="Valerius"
-	culture="sabellian"
-}
-519000133=
-{
-	name="Valeria"
-	culture="sabellian"
-}
-519000134=
-{
-	name="Valerii"
-	culture="sabellian"
-}
-519000135=
-{
-	name="Valerian"
-	culture="sabellian"
-}
-519000136=
-{
-	name="Verginius"
-	culture="sabellian"
-}
-519000137=
-{
-	name="Verginia"
-	culture="sabellian"
-}
-519000138=
-{
-	name="Verginii"
-	culture="sabellian"
-}
-519000139=
-{
-	name="Verginian"
-	culture="sabellian"
-}
-519000140=
-{
-	name="Veturius"
-	culture="sabellian"
-}
-519000141=
-{
-	name="Veturia"
-	culture="sabellian"
-}
-519000142=
-{
-	name="Veturii"
-	culture="sabellian"
-}
-519000143=
-{
-	name="Veturian"
-	culture="sabellian"
-}
-519000144=
-{
-	name="Vesuvius"
-	culture="sabellian"
-}
-519000145=
-{
-	name="Vesuvia"
-	culture="sabellian"
-}
-519000146=
-{
-	name="Vesuvii"
-	culture="sabellian"
-}
-519000147=
-{
-	name="Vesuvian"
-	culture="sabellian"
-}
-519000148=
-{
-	name="Villius"
-	culture="sabellian"
-}
-519000149=
-{
-	name="Villia"
-	culture="sabellian"
-}
-519000150=
-{
-	name="Villii"
-	culture="sabellian"
-}
-519000151=
-{
-	name="Villian"
-	culture="sabellian"
-}
-519000152=
-{
-	name="Viridius"
-	culture="sabellian"
-}
-519000153=
-{
-	name="Viridia"
-	culture="sabellian"
-}
-519000154=
-{
-	name="Viridii"
-	culture="sabellian"
-}
-519000155=
-{
-	name="Viridian"
-	culture="sabellian"
-}
-519000156=
-{
-	name="Volumnius"
-	culture="sabellian"
-}
-519000157=
-{
-	name="Volumnia"
-	culture="sabellian"
-}
-519000158=
-{
-	name="Volumnii"
-	culture="sabellian"
-}
-519000159=
-{
-	name="Volumnian"
+	name="Vuliis"
 	culture="sabellian"
 }
