@@ -739,9 +739,14 @@ public class Importer
 
             try {
                 while (aqq < locList.size()){
+                    //In locList, mod loc strings are stored first, vanilla second
 
                     String qaaa = locList.get(aqq);
+                    qaaa = qaaa.replace(":1 ",":0 ");
                     qaaa = qaaa.replace(": ",":0 ");
+                    qaaa = qaaa.replace(":0  ",":0 "); //It is possible to have 2 spaces
+                    String[] qaaaSplit = qaaa.split(":");
+                    String qaaaIdentifier = qaaaSplit[0];
                     try {
                         if (qaaa.charAt(0) != ' ') {//If loc lacks leading space, add a space
                             qaaa = " " + qaaa;
@@ -750,8 +755,9 @@ public class Importer
                         
                     }
 
-                    if (qaaa.split(":")[0].equals(" "+tag)){
-                        output[0] = qaaa.split(":")[1];
+                    if (qaaaIdentifier.equals(" "+tag) && !name && !qaaaIdentifier.equals("")){
+                        //if previously found, will not overwrite first entry, and will ignore blank information (tag:0 "")
+                        output[0] = qaaaSplit[1];
                         output[0] = output[0].substring(3,output[0].length()-1);
                         name = true;
 
@@ -760,8 +766,8 @@ public class Importer
                     String adjName = tag.replace("_FEUDATORY_NAME","_FEUDATORY_ADJECTIVE"); //for certain mission tags which have different formatting
                     adjName = adjName.replace("_NAME","");
 
-                    if (qaaa.split(":")[0].equals(" "+tag+"_ADJ") || qaaa.split(":")[0].equals(" "+tag+"_ADJECTIVE")
-                    || qaaa.split(":")[0].equals(" "+adjName+"_ADJ") || qaaa.split(":")[0].equals(" "+adjName+"_ADJECTIVE")){
+                    if (qaaaIdentifier.equals(" "+tag+"_ADJ") || qaaaIdentifier.equals(" "+tag+"_ADJECTIVE") || qaaaIdentifier.equals(" "+adjName+"_ADJ")
+                    || qaaaIdentifier.equals(" "+adjName+"_ADJECTIVE")){
                         if (name) {
                           aqq = locList.size() + 1;  
                         }
@@ -1680,6 +1686,7 @@ public class Importer
             }
 
         }catch (java.util.NoSuchElementException exception){
+            //System.out.println("Error with importing flags from "+name+", skipping");
 
         }   
 
@@ -1906,13 +1913,14 @@ public class Importer
             aqq = aqq + 1;
         }
 
+        allLoc.addAll(moddedLoc); //Modded loc takes priority
         allLoc.addAll(regionLoc);
         allLoc.addAll(formableLoc);
         allLoc.addAll(countryLoc);
         allLoc.addAll(provLoc);
         allLoc.addAll(areaLoc);
         allLoc.addAll(supportedModLoc);
-        allLoc.addAll(moddedLoc);
+        //allLoc.addAll(moddedLoc);
 
         return allLoc;
     }

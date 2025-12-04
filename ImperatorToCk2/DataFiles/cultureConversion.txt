@@ -542,6 +542,7 @@ pyu,pyu
 rhakine,mon
 mon,mon
 pubu,wa
+jaintia,mon
 
 #Chinese
 qin,han
