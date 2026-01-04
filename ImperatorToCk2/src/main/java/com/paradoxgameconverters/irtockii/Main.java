@@ -34,7 +34,7 @@ public class Main
             throw new RuntimeException("Problems with creating the log files");
         }
 
-        LOGGER.info("Converter version 0.2A \"Belgae\" - compatible with Imperator: Rome 1.3-2.0 and Crusader Kings II 3.3");
+        LOGGER.info("Converter version 0.3 \"Carthaginian\" - compatible with Imperator: Rome 1.3-2.0 and Crusader Kings II 3.3");
         LOGGER.finest("0%");
         System.out.println("5%");
 
@@ -740,8 +740,18 @@ public class Main
 
 
                                 Output.dynastyCreation(rulerDynasty,Character[7],Character[16],modDirectory);
+                                
+                                String[] locName = new String[2];
+                                locName[0] = impTagInfo.get(aq4)[19];
+                                locName[1] = impTagInfo.get(aq4)[19];
 
-                                String[] locName = importer.importLocalisation(locList,impTagInfo.get(aq4)[19],rulerDynasty);
+                                try {
+                                    locName = importer.importLocalisation(locList,impTagInfo.get(aq4)[19],rulerDynasty);
+                                } catch (Exception e) {
+                                    LOGGER.warning("Exception created while generating loc "+impTagInfo.get(aq4)[19]+" for "+impTagInfo.get(aq4)[0]+
+                                    ", aborting loc generation");
+                                }
+                                
                                 Output.localizationCreation(locName,impTagInfo.get(aq4)[0],rank,modDirectory);
                                 if (oldName.equals(impTagInfo.get(aq4)[0])) { //Try to generate flag, if failure occurs, copy capital flag
                                     int genFlag = 0;
